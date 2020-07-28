@@ -3,7 +3,7 @@ This Repository contains code for my delani studio website.
 *****
 ##### AUTHOR: Bernice Maina
 ## Description
-This is a  Project that I have created a website that is on how to use jquery.It shows how the behaviour of images hide when clicked
+This is a  Project that I have created a website which uses Jquery library.It shows how the images behave  when toggled.
 **********
                 
 ## Setup Instructions
@@ -28,6 +28,6 @@ This project is about learning more about the jquery library such that in the la
  ******
  
 ## Project links
-[This is a link for my github page](https://github.com/Bernice2001/Akan-Birthday-Project)
+[This is a link for my github page](https://github.com/Bernice2001/Delani.Studio)
 
 [Click this link for my project](https://bernice2001.github.io/Akan-Birthday-Project/)
