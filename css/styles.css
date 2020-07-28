@@ -1,9 +1,7 @@
 .container-fluid{
-    position: relative;
-    text-align: center;
+    background-image: url("./");
     font-family: 'Source Sans Pro', serif;
     font-size: 22px;
-    overflow: visible;
 }
 .image{
     height: 100%;
@@ -28,7 +26,4 @@
     position: relative;
     color: white;
 
-}
-#first{
-    
 }
