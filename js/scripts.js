@@ -1,63 +1,85 @@
-$(document).ready(function() {
+//function to toggle between the icons and the text
+$(document).ready(function(){
+    
+    $(".btn_1").click(function(){ 
+        $("p.par_1").show();
+        $(".btn_1").hide(); 
+    });
+    $("p.par_1").click(function(){
+        $("p.par_1").hide();
+        $(".btn_1").show(); 
+    });
+     $(".btn_2").click(function(){
+         $("p.par_2").show();   
+         $(".btn_2").hide();
+     });
+     $("p.par_2").click(function(){
+         $("p.par_2").hide();
+         $(".btn_2").show();
+     });
+     $(".btn_3").click(function(){
+         $("p.par_3").show();   
+         $(".btn_3").hide();
+     });
+     $("p.par_3").click(function(){
+         $(".btn_3").show();
+         $("p.par_3").hide();
+     }); 
+  });
 
-    $("form").submit(function(event) {
-        event.preventDefault()
-        var inputData =$("input#nameInput").val();
-        var inputEmail=$("input#emailInput").val();
-        var textAreaData= $("textarea#textareaInput").val();
-        
-        //Form Validation
-        
-        $(".error").remove();
-        
-        if (inputData.length < 1) {
-            $('#nameInput').after('<span class="error">This field is required</span>');
-        }
-        else if (inputEmail.length < 1) {
-            $('#emailInput').after('<span class="error">This field is required</span>');
-            
-        }else{
-            var regEx = /^(([^<>()\[\]\.,;:\s@\"]+(\.[^<>()\[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-            var validEmail = regEx.test(inputEmail);
-            if (!validEmail) {
-                $('#emailInput').after('<span class="error">Enter a valid email</span>');
-            }else{
-                if (textAreaData.length < 1) {
-                    $('#textareaInput').after('<span class="error">This field is required</span>');
-                }  else {
+  $("#port2").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
 
-                        alert("Dear " +inputData+" we have received your message and thank you for contacting us.");
-                        $("#form")[0].reset();
-                    }
-                }
-            }
-        });
-        
-        //Icons animation
-        var icn = $(".icons");
-        $.each(icn, function(index, element){
-                $(element).click(function(){
-                $(".description"+(index+1)).toggle();
-                $(this).toggle();
-            })
-            $(".description"+(index+1)).click(function(){
-                $(this).toggle();
-                $(element).toggle();
+$("#port3").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
 
-            } );
-        });
-        //portofolio animation
-        var porto = $(".porto");
-        $.each(porto, function(index, element){
-                $(element).mouseover(function(){
-                $(".descript"+index).css({"opacity":"1", "display":"unset","position":"absolute", "top":"20%","left":"25%","border":"1px","width":"60%","background-color":"rgba(255,255,255,0.555)"});
-                $(this).css({"opacity":"0.4"});
-            })
-            $(".descript"+index).mouseleave(function(){
-                $(this).css({"opacity":"0"});
-                $(element).css({"opacity":"1"});
+$("#port1").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
 
-            } );
-        });
-        
+$("#port4").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
+
+$("#port5").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
+
+$("#port6").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
+
+$("#port7").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
+
+$("#port8").hover(function() {
+    console.log("blur")
+    $("this").addClass("blur");
+});
+
+
+
+$("form#form").on('submit',function(event){
+    event.preventDefault();
+    let name = $("input#name").val();
+    let email = $("input#email").val();
+    let message = $("textarea#message").val();
+
+    if ($("input#name").val() && $("input#email").val()){
+        alert ("Hey " + name + ", Thanks for contacting us, we'll get back to you once we see your message!");
+    }
+    else {
+        alert("YOU NAME AND PASSWORD IS INCORRECT PUT THE CORRECT INFORMATION AND RETRY AGAIN!");
+    }
+
 });
