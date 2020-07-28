@@ -1,155 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Delani Studio</title>
-</head>
-<body>
-    <div class="container-fluid" id="container1">
-    
-     <img src="/image/logo.png" class="img-respomsive" id="logo">
-    <h1 id="welcome">WELCOME <br>TO DELANI STUDIO</h1>
-    <p class="text-center" id="text">AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-    
-    <img src="/image/mouse_click.png" class="img-responsive" id="mouse">
+<html>
+    <head>
+      <title> delani studio</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width initial-scale=1.0">
 
-    </div>    
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="css/styles.css">
+      <script src="js/jQueryLibrary.js"></script>
+      <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+      <script src="js/delani.js"></script>
 
-    <section id="About Us">
-    <div id="about" class="text-center">
-    <div class="container">
-
-        <h2><strong>ABOUT US</strong></h2>
-        <p>When you work with us,you are part of a team commited collaborators.All asspects of our software development process are interagated,interactive
-            and agile.</p>
-        <p>Our approach unifies design,development and product management to create exceptional products.</p>
-        <p>We start each project by understanding your business,goals the user's needs and the product requirements.</p>
-        <p>Then we help translate them into efective and elegant solutions.</p>
         
-
-    </div>
-    </div>
-    </section>
-
-    <section id="services">
-    <div id="ourservices" class="text-center">
-    <div class="container" >
-    <img src="image/s_image.jpg">
-    <h2><strong>SERVICES</strong></h2>
-    <p>Before we sign a contract or write a line of code our team wil spend the necesary time to understandyour product vision.</p>
-    <p>The outcome of this scoping session is proposal or high-level statement of work.</p>
-    <p>based on your requirements,we can provide a complete offering or just the pieces you need.</p>
-    </div> 
-    </div> 
-    
-    </section>
-    <section id="whatwedo" class="text-centre">
-    <div class="container-fluid"></div>
-    <h2 class="text-center" id="wwd"><strong>WHAT WE DO</strong></h2>
-    <div class="row" id="whatwedo">
-    <div class="coldesign col-md-12 text-center">
-        <div class="design">
-    <img src="image/design_icon.png"><p>DESIGN</p>
-    <p id="design-information" >
-    Our design practice offers a full range of services<br> including brand strategy, 
-    interaction and visual design<br> and user experience testing.<br><br>
-    Throughout your project, our designers create and <br>implement visual design
-    and workflows, solicit user <br>feedback and work with you to make sure what gets built <br>is what is needed.</p>
+    </head>
+    <body>
+        
+      <div class="main">
+        <div class="headSection">
+          
+          <img src='images/logo.png'>
+          <div class="welcome"><p>WELCOME</p></div> 
+            <div><p class="welcome amaizing">TO DELANI STUDIO</p>
+              <p class="amaizing">AMAIZING PEOPLE ARE MAKING AMAIZING DESIGNS IN FUN ENVIRONMENT</p>
+              <img src="images/mouse_click.png" id="mouse">
+            </div>
         </div>
-    <div id="development">
-        <img src="image/dev_icon.png" alt="development" id="development"> 
-         <h5><strong>DEVELOPMENT</strong></h5>
-         <p id="development-information">
-  All engineers are fluent in the latest enterprise, mobile<br> and web development technologies.
-<br><br>They collaborate with your team to write, and improve<br>code on a daily basis, using proven practices such as<br> test-driven development and pair programming.</p>
-    </div>
-    <div>     
-                 <img src="image/product_icon.png">
-                 <h5><strong>PRODUCT MANAGEMENT</strong></h5>
-                 <p id="product-management">
-                 Planning and development is iterative. Because we are<br> constantly coding and testing, the products we build are<br> always ready to go live.<br><br> 
-This iterative process allows for changes as business requirements evolve.</p>
-             </div>
-         </div>
-    </div>
-    </div>
-    </div>
-    </section>
-        <h2>PORTFOLIO</h2>
-    <div class="row" id="first">
-        <div class="col-1 col-md-12 ">
-            <div class="card-text-centre" id="job1">
-                <img src="image/work1.jpg"><p>STUDIO</p>  
-        </div>
-                    <div class="card-text-centre" id="job2">
-                <img src="image/work2.jpg">
+          <div class="aboutUs">
+            <h1>About us</h1>
+            <p>When you work with us, you are a part of team with committed colabolators. All aspects pf our software development process are integrated, interactive,<br> and argile<br>Our approach unifies design, development and product managment to create exptional products,<br>We start each project by understanding your goals, The user's needs and product requirements<br> Then we help them into effective and elegante solutions.</p>
+          </div>
+          <div class="services">
+              <h1>SERVICES</h1>
+              <p>Before we sign contractract or write a line of code our team will spend a necessary time needed to understand your product vision<br> The outcome of this scoping session is proposal or high-level statement of work.<br> Based on your requirements, we can provide a complete offering or just a piece you need.</p>
+          </div>
+          <div class="whatWeDo">
+            <h1>What we do</h1>
+            <div class="row">
                 
-        </div>
-            <div class="card-text-centre" id="job3">
-                <img src="image/work3.jpg">
-                 
-    </div>
-        <div class="card-text-centre" id="job4">
-            <img src="image/work4.jpg">
-             
-            
-    </div>
-</div>
-    </div>
-    <div class="row" id="second">
-        <div class="col-2 col-md-12">
-    
-    <div class="card-text-centre" id="job5">
-        <img src="image/work5.jpg">
-    </div>
-        <div class="card-text-centre" id="job6">
-            <img src="image/work6.jpg">
-        </div>
+              <div class="col-md-4 second-cls">
+                <img  src="images/design_icon.png" class="icons">
+                <h2><b>DESIGN</b></h2>
+                <p class="description1">Our design practice offers a full range of services including branding strategy,interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+              </div>
+              <div class="col-md-4 second-cls">
+                <img src="images/dev_icon.png" class="icons">
+                <h2><b>DEVELOPMENT</b></h2>
+                <p class="description2">
+                  All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programmin</p>
+              </div>
+              <div class="col-md-4 second-cls">
+                <img src="images/product_icon.png" class="icons"> <br>
+                <h2><b>PODUCT MANAGMENT</b></h2>
+                <p class="description3">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live.This iterative process allows for changes as business requirements eveolve.</p>
+              </div>
+                  
+              </div>
+          </div>
+          <div class="portfolio">
+              <h1>PORTFOLIO</h1>
 
-            <div class="card-text-centre" id="job7">
-                <img src="image/work7.jpg">
-            </div>
-
-                <div class="card-text-centre" id="job8">
-                    <img src="image/work8.jpg">
+            <div class="row">
+                <div class="col-md-3" id="col1">
+                  <img src="images/port1.jpg"  height="250px" width="280px" class="porto" >
+                  <p class="descript0"> <strong>Delani studio</strong> </p>
                 </div>
-            </div>
-            </div>
+                <div class="col-md-3" id="col2">
+                  <img src="images/port2.jpg"  height="250px" width="280px" class="porto" >
+                  <p class="descript1"> <strong>Ontario city</strong> </p>
+                </div>
+                <div class="col-md-3" id="col3" >
+                  <img src="images/port3.jpg"height="250px" width="280px" class="porto">
+                  <p class="descript2"> <strong>Wall Design</strong> </p>
+                </div>
+                <div class="col-md-3" id="col4">
+                    <img src="images/port4.jpg"  height="250px" width="280px" class="porto">
+                    <p class="descript3"> <strong>Jim Carrey</strong> </p>
+                </div>
+              </div>
 
+              <div class="row">
+                
+                <div class="col-md-3" id="col5">
+                  <img src="images/port5.jpg" height="250px" width="280px" class="porto">   
+                  <p class="descript4"> <strong>Day quote!</strong> </p>
+                </div>
+                <div class="col-md-3" id="col6">
+                    <img src="images/por6.jpg"  height="250px" width="280px" class="porto">  
+                    <p class="descript5"><strong>Dear clients<br></strong> </p>
+                </div>
+                <div class="col-md-3" id="col7">
+                    <img src="images/port7.jpg" height="250px" width="280px" class="porto">
+                    <p class="descript6"><strong>Burned logo</strong> </p>
+                </div>
+                <div class="col-md-3" id="col8">
+                    <img src="images/port8.jpg" height="250px" width="280px" class="porto">
+                    <p class="descript7"> <strong> Giraffe Restaurant</strong> </p>
+              </div>
+              </div>  
+          
+          <div class="ContactUs">
+            <h1>CONTACT US</h1>
+            <form class="contacts" id="form"></strong>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Name...." id="nameInput" name="name">
+                </div>
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Email...." id="emailInput" name="email">
+                </div>
+              </div>
+              <div class="row">
+                <textarea type="text" class="form-control" cols="50" rows="10" placeholder="Your message here..." id="textareaInput" name="messag"></textarea>
+              </div> 
+              <button type="submit" value="submit">submit</button>
+            </form>
 
+          </div>
+          <div class="social">
+            <img src="images/twitter.png">
+            <img src="images/dribble.png">
+            <img src="images/facebook.png">
+            <img src="images/g_plus.png">
+            <img src="images/skype.png">
+            <img src="images/stumble_upon.png">
+            <img src="images/behance.png">
+            <img src="images/pinterest.png">
+            <img src="images/flickr.png">
+          </div>
+      </div>
+      <div class="footer">
+        <p>DELANI STUDIO<br>2020</p>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</body>
-</html>
+    </div>
+  </body>
+</html> 
