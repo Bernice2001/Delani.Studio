@@ -79,7 +79,7 @@ $("form#form").on('submit',function(event){
         alert ("Hey " + name + ", Thanks for contacting us, we'll get back to you once we see your message!");
     }
     else {
-        alert("YOU NAME AND PASSWORD IS INCORRECT PUT THE CORRECT INFORMATION AND RETRY AGAIN!");
+        alert("Hey " + name + ", Thanks for contacting us, we'll get back to you once we see your message");
     }
 
 });
