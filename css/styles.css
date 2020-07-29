@@ -8,21 +8,26 @@
     padding: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.portfolio img{
-    text-align: center;
-  -ms-grid-column-align: center;
-  justify-content: space-around; 
-  position: relative;
-    align-items: center;
-    margin: auto;
+.column1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  }
+  .column2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+.column1 img{
+  width: 85%;
+  padding:5%;
+}
+.column2 img{
+  width:85%;
+  padding:5%;
 }
 .portfolio{
     text-align: center;
-}
-.icons{
-    align-items: center;
-    text-align: center;
-    
 }
 .contact{
     text-align: center;
