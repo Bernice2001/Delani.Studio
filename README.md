@@ -30,4 +30,4 @@ This project is about learning more about the jquery library such that in the la
 ## Project links
 [This is a link for my github page](https://github.com/Bernice2001/Delani.Studio)
 
-[Click this link for my project]()
+[Click this link for my project](https://bernice2001.github.io/Delani.Studio/)
