@@ -1,6 +1,6 @@
 //function to toggle between the icons and the text
 $(document).ready(function(){
-    
+
     $(".btn_1").click(function(){ 
         $("p.par_1").show();
         $(".btn_1").hide(); 

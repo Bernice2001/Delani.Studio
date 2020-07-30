@@ -217,12 +217,13 @@ h6{
   .what-we-do{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
 
-  .par_1,.par_2{ 
+  .par_1,.par_2,.par_3{ 
     text-align: center;
-    background-color: teal;
+    
   }
 
+ 
   
