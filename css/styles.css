@@ -8,6 +8,9 @@
     padding: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.icons{
+ align-items: center;
+}
 .column1{
   display: flex;
   flex-direction: row;
