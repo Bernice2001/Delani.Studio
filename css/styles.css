@@ -11,6 +11,7 @@
 .icons{
  align-items: center;
 }
+
 .column1{
   display: flex;
   flex-direction: row;
@@ -155,8 +156,6 @@ h6{
     opacity: 0.5;
     filter: blur(opacity=100);
   }
-
-  
   #port5{
     opacity: 1;
     filter: blur(opacity=50);
@@ -210,3 +209,20 @@ h6{
   #form{
     color: black;
   }
+
+  .what-we-do p{
+    display: none;
+  }
+
+  .what-we-do{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .par_1,.par_2{ 
+    text-align: center;
+    background-color: teal;
+  }
+
+  
