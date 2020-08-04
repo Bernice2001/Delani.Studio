@@ -2,7 +2,11 @@
     text-align: center;
     padding: 30px;
     font-family: 'Courier New', Courier, monospace;
+    line-height: 130%;
+    font-size: 1.3vw;
+
 }
+
 .services{
     text-align: center;
     padding: 40px;
